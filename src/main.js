@@ -16,7 +16,7 @@ const routes = [
     name:'AboutPage',
     component:About,
   },
-]
+];
 
 const router = new VueRouter({
   mode:"history",
