@@ -1,14 +1,16 @@
 <template>
     <div>
+        <!-- Nav -->
         <Nav />
-        <h1>About Page</h1>
+        <!-- Content -->
+        <slot />
     </div>
 </template>
 
 <script>
-import Nav from './Nav';
+import Nav from "./Nav";
 export default {
     components:{Nav},
-    name: "AboutPage",
+    name: "MasterItem", 
 }
 </script>
